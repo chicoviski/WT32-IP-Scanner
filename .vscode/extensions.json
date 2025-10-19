@@ -1,1 +1,10 @@
-{\n    "recommendations": [\n        "platformio.platformio-ide",\n        "ms-vscode.cpptools",\n        "ms-vscode.cpptools-extension-pack"\n    ]\n}
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        "platformio.platformio-ide"
+    ],
+    "unwantedRecommendations": [
+        "ms-vscode.cpptools-extension-pack"
+    ]
+}
